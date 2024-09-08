@@ -1,0 +1,135 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>Documentation</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+    <a class="nav-link" href="#CSS_Styling">CSS Styling</a>
+    <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+    <a class="nav-link" href="#Conclusion">Conclusion</a>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Welcome to the technical documentation page.</p>
+      <p>This page provides an overview of web development basics.</p>
+      <code><!-- This is a comment in HTML --></code>
+    </section>
+    <section class="main-section" id="HTML_Basics">
+      <header>HTML Basics</header>
+      <p>HTML stands for HyperText Markup Language.</p>
+      <ul>
+        <li>HTML is used to create web pages.</li>
+        <li>HTML elements are represented by tags.</li>
+        <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on.</li>
+      </ul>
+      <p>Here is an example of an HTML element:</p>
+      <code><p>This is a paragraph.</p></code>
+      <code><a href="https://www.example.com">This is a link</a></code>
+    </section>
+    <section class="main-section" id="CSS_Styling">
+      <header>CSS Styling</header>
+      <p>CSS stands for Cascading Style Sheets.</p>
+      <p>CSS is used to style HTML elements.</p>
+      <ul>
+        <li>CSS can control the layout of multiple web pages all at once.</li>
+        <li>External stylesheets are stored in CSS files.</li>
+      </ul>
+      <p>Here is an example of a CSS rule:</p>
+      <code>body { background-color: lightblue; }</code>
+      <code>h1 { color: blue; }</code>
+    </section>
+    <section class="main-section" id="JavaScript_and_Java">
+      <header>JavaScript and Java</header>
+      <p>JavaScript is a programming language that is commonly used in web development.</p>
+      <p>Here is an example of a JavaScript code snippet:</p>
+      <code>console.log('Hello, world!');</code>
+      <code>let x = 10;</code>
+    </section>
+    <section class="main-section" id="Conclusion">
+      <header>Conclusion</header>
+      <p>Thank you for reading this technical documentation.</p>
+      <p>We hope you found it helpful.</p>
+      <code>// This is a comment in JavaScript</code>
+    </section>
+  </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+#navbar header {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+#main-doc {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.main-section {
+  margin-bottom: 40px;
+}
+
+code {
+  background-color: #f4f4f4;
+  padding: 5px;
+  display: block;
+  margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+  #navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  #main-doc {
+    margin-left: 0;
+  }
+}
+
+
+** end of undefined **
+

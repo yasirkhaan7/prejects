@@ -1,0 +1,132 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <img id="header-img" src="https://via.placeholder.com/150" alt="Product Logo">
+    <nav id="nav-bar">
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#how-it-works">How It Works</a>
+      <a class="nav-link" href="#pricing">Pricing</a>
+    </nav>
+  </header>
+  <main>
+    <section id="features">
+      <h2>Features</h2>
+      <p>Our product offers a variety of features to help you achieve your goals.</p>
+    </section>
+    <section id="how-it-works">
+      <h2>How It Works</h2>
+      <p>Watch the video below to see how our product works:</p>
+      <video id="video" controls>
+        <source src="https://www.example.com/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <p>Choose the plan that best suits your needs.</p>
+    </section>
+  </main>
+  <footer>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <input type="submit" id="submit" value="Subscribe">
+    </form>
+  </footer>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+#header-img {
+  width: 50px;
+}
+
+#nav-bar {
+  display: flex;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 80px 20px 20px; /* Adjusted padding to account for fixed header */
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="email"], input[type="submit"] {
+  margin: 10px 0;
+  padding: 10px;
+  width: 80%;
+}
+
+@media (max-width: 600px) {
+  #header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-link {
+    margin: 5px 0;
+  }
+}
+
+
+** end of undefined **
+
